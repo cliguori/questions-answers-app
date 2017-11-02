@@ -31,4 +31,17 @@ Public Class welcome
     Public Function getQuestionValue(ByVal column As String)
         Return dgvQuestions.Item(column, dgvQuestions.CurrentRow.Index).Value
     End Function
+
+    Private Sub DeleteQuestionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteQuestionToolStripMenuItem.Click
+        Dim confirmed As Integer = MessageBox.Show("Are you sure you want to delete this", "Delete", MessageBoxButtons.YesNoCancel)
+
+        If confirmed = DialogResult.Yes Then
+            db.sql = "DELETE FROM questions WHERE id = @question_id"
+            db.bind("@question_id", getQuestionId())
+            db.execute()
+            LoadQuestions()
+
+        End If
+
+    End Sub
 End Class
