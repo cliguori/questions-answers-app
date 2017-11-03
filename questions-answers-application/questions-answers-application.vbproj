@@ -72,6 +72,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllAnswers.Designer.vb">
+      <DependentUpon>AllAnswers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AllAnswers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnswerQuestion.Designer.vb">
+      <DependentUpon>AnswerQuestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AnswerQuestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnswersForm.Designer.vb">
+      <DependentUpon>AnswersForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AnswersForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CreateQuestion.Designer.vb">
       <DependentUpon>CreateQuestion.vb</DependentUpon>
     </Compile>
@@ -79,6 +97,18 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="db.vb" />
+    <Compile Include="QAForm.Designer.vb">
+      <DependentUpon>QAForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QAForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAnswer.Designer.vb">
+      <DependentUpon>UpdateAnswer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAnswer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="UpdateQuestion.Designer.vb">
       <DependentUpon>UpdateQuestion.vb</DependentUpon>
     </Compile>
@@ -109,6 +139,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AllAnswers.resx">
+      <DependentUpon>AllAnswers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnswerQuestion.resx">
+      <DependentUpon>AnswerQuestion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnswersForm.resx">
+      <DependentUpon>AnswersForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateQuestion.resx">
       <DependentUpon>CreateQuestion.vb</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +156,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QAForm.resx">
+      <DependentUpon>QAForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAnswer.resx">
+      <DependentUpon>UpdateAnswer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateQuestion.resx">
       <DependentUpon>UpdateQuestion.vb</DependentUpon>

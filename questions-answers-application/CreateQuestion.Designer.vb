@@ -22,35 +22,34 @@ Partial Class CreateQuestion
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.tbQuestion = New System.Windows.Forms.TextBox()
-        Me.btnQuestionSubmit = New System.Windows.Forms.Button()
+        Me.TbQuestion = New System.Windows.Forms.TextBox()
+        Me.BtnQuestionSubmit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'tbQuestion
+        'TbQuestion
         '
-        Me.tbQuestion.Location = New System.Drawing.Point(12, 12)
-        Me.tbQuestion.Multiline = True
-        Me.tbQuestion.Name = "tbQuestion"
-        Me.tbQuestion.Size = New System.Drawing.Size(546, 208)
-        Me.tbQuestion.TabIndex = 0
+        Me.TbQuestion.Location = New System.Drawing.Point(51, 29)
+        Me.TbQuestion.Multiline = True
+        Me.TbQuestion.Name = "TbQuestion"
+        Me.TbQuestion.Size = New System.Drawing.Size(289, 103)
+        Me.TbQuestion.TabIndex = 0
         '
-        'btnQuestionSubmit
+        'BtnQuestionSubmit
         '
-        Me.btnQuestionSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnQuestionSubmit.Location = New System.Drawing.Point(12, 227)
-        Me.btnQuestionSubmit.Name = "btnQuestionSubmit"
-        Me.btnQuestionSubmit.Size = New System.Drawing.Size(546, 107)
-        Me.btnQuestionSubmit.TabIndex = 1
-        Me.btnQuestionSubmit.Text = "Submit"
-        Me.btnQuestionSubmit.UseVisualStyleBackColor = True
+        Me.BtnQuestionSubmit.Location = New System.Drawing.Point(51, 165)
+        Me.BtnQuestionSubmit.Name = "BtnQuestionSubmit"
+        Me.BtnQuestionSubmit.Size = New System.Drawing.Size(289, 56)
+        Me.BtnQuestionSubmit.TabIndex = 1
+        Me.BtnQuestionSubmit.Text = "Submit"
+        Me.BtnQuestionSubmit.UseVisualStyleBackColor = True
         '
         'CreateQuestion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(570, 344)
-        Me.Controls.Add(Me.btnQuestionSubmit)
-        Me.Controls.Add(Me.tbQuestion)
+        Me.ClientSize = New System.Drawing.Size(381, 261)
+        Me.Controls.Add(Me.BtnQuestionSubmit)
+        Me.Controls.Add(Me.TbQuestion)
         Me.Name = "CreateQuestion"
         Me.Text = "CreateQuestion"
         Me.ResumeLayout(False)
@@ -58,6 +57,6 @@ Partial Class CreateQuestion
 
     End Sub
 
-    Friend WithEvents tbQuestion As TextBox
-    Friend WithEvents btnQuestionSubmit As Button
+    Friend WithEvents TbQuestion As TextBox
+    Friend WithEvents BtnQuestionSubmit As Button
 End Class

@@ -28,27 +28,28 @@ Partial Class UpdateQuestion
         '
         'btnUpdateQuestionSubmit
         '
-        Me.btnUpdateQuestionSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdateQuestionSubmit.Location = New System.Drawing.Point(12, 346)
+        Me.btnUpdateQuestionSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdateQuestionSubmit.Location = New System.Drawing.Point(12, 182)
         Me.btnUpdateQuestionSubmit.Name = "btnUpdateQuestionSubmit"
-        Me.btnUpdateQuestionSubmit.Size = New System.Drawing.Size(504, 104)
+        Me.btnUpdateQuestionSubmit.Size = New System.Drawing.Size(387, 51)
         Me.btnUpdateQuestionSubmit.TabIndex = 0
         Me.btnUpdateQuestionSubmit.Text = "Submit"
         Me.btnUpdateQuestionSubmit.UseVisualStyleBackColor = True
         '
         'tbUpdateQuestion
         '
+        Me.tbUpdateQuestion.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tbUpdateQuestion.Location = New System.Drawing.Point(12, 12)
         Me.tbUpdateQuestion.Multiline = True
         Me.tbUpdateQuestion.Name = "tbUpdateQuestion"
-        Me.tbUpdateQuestion.Size = New System.Drawing.Size(504, 328)
+        Me.tbUpdateQuestion.Size = New System.Drawing.Size(387, 136)
         Me.tbUpdateQuestion.TabIndex = 1
         '
         'UpdateQuestion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(528, 462)
+        Me.ClientSize = New System.Drawing.Size(415, 298)
         Me.Controls.Add(Me.tbUpdateQuestion)
         Me.Controls.Add(Me.btnUpdateQuestionSubmit)
         Me.Name = "UpdateQuestion"
